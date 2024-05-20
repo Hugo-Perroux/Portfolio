@@ -1,0 +1,41 @@
+CSS
+
+/* General styling for the container */
+.container {
+  max-width: 960px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding around the content */
+}
+
+/* Styling for the row */
+.row {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if they don't fit */
+  justify-content: space-between; /* Distribute space between items evenly */
+}
+
+/* Styling for the columns */
+.col-md-6 {
+  flex: 1 0 50%; /* Set the width of each column to 50% of the available space */
+  padding: 10px; /* Add some padding around the content in each column */
+}
+
+/* Styling for the competence name */
+h2 {
+  font-size: 24px; /* Set the font size for the competence name */
+  margin-bottom: 20px; /* Add some margin below the name */
+}
+
+/* Styling for the competence description */
+p {
+  font-size: 16px; /* Set the font size for the description */
+  line-height: 1.6; /* Adjust the line height for better readability */
+}
+
+/* Styling for the image */
+.img-responsive {
+  display: block; /* Make sure the image is displayed as a block element */
+  max-width: 100%; /* Set the maximum width of the image to 100% */
+  height: auto; /* Maintain the aspect ratio of the image */
+  margin: 0 auto; /* Center the image horizontally */
+}
