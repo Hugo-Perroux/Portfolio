@@ -1,0 +1,178 @@
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.smaller-text {
+    font-size: 0.9em;
+}
+
+.option-title {
+    text-align: center;
+    color: #FF5722;
+}
+.option-titles {
+    color: #FF5722;
+    font-size: 20px; 
+    padding-left: 10px;
+}
+
+.intro h2 {
+    color: #FF5722;
+}
+
+.col-md-1,
+.col-md-5 {
+    margin-bottom: 20px; /* Ajout de marges en bas pour l'espace */
+}
+
+.btn.btn-black {
+    background: #000000;
+    border-color: #000000;
+    color: #fff;
+}
+
+.center-obj-align {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn i {
+    margin-left: 6px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.icon-xs {
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+a,
+a:active,
+a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+[role="button"],
+a,
+area,
+button,
+input:not([type="range"]),
+label,
+select,
+summary,
+textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.table-bordered th{
+    text-align: center; /* Center text horizontally */
+    margin: 0 auto; /* Center content horizontally and vertically */
+  }
+
+  .table-bordered td{
+    text-align: center; /* Center text horizontally */
+    margin: 0 auto; /* Center content horizontally and vertically */
+  }
+  summary {
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 5px ;
+    width: 100%;
+  }
+  
+  summary:hover {
+    background-color: #ffe0b3;
+    color: #FF9800; /* Orange */
+  }
+  
+  #tableau {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 10%;
+    border: solid 3px #FF9800; /* Orange */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  #tableau:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+details {
+    width: 75%;
+    
+}
+img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+t {
+    font-size: 2em; /* Taille plus grande pour indiquer l'importance */
+    color: #2c3e50; /* Couleur sombre pour une bonne lisibilité */
+    margin-bottom: 20px; /* Espace sous le titre pour le séparer du contenu suivant */
+    font-weight: bold; /* Texte en gras pour le rendre plus visible */
+    text-align: center; /* Centrer le titre */
+    border-bottom: 2px solid #3498db; /* Ligne en dessous pour accentuer */
+    padding-bottom: 10px; /* Padding pour espacer le texte de la bordure */
+}
+
+#test {
+    font-size: 1.5em; /* Taille légèrement plus petite que le h2 */
+    color: #34495e; /* Couleur un peu plus claire que le h2 */
+    margin-top: 30px; /* Espace au-dessus pour séparer des éléments précédents */
+    margin-bottom: 15px; /* Espace en dessous pour séparer du contenu suivant */
+    font-weight: normal; /* Texte moins gras que le h2 */
+    text-align: justify; /* Justifier le texte pour une apparence professionnelle */
+    line-height: 1.5; /* Hauteur de ligne pour améliorer la lisibilité */
+}
