@@ -1,0 +1,28 @@
+.intro{
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.column {
+    width: 45%;
+}
+
+.smaller-text {
+    font-size: 0.9em;
+}
+
+.option-title {
+    text-align: center;
+    color: #FF5722;
+}
+.intro h2 {
+    color: #FF5722;
+}
