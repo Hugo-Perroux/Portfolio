@@ -85,7 +85,7 @@
   width: 45%;
   padding: 10px 30px;
   border-radius: 4px;
-  background: #f5f5f5;
+  
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
 
@@ -178,7 +178,8 @@ a:focus {
   color: #6f6f6f;
   text-decoration: none;
 }
+
 h2 {
   color: #FF5722;
- } 
+}
 
